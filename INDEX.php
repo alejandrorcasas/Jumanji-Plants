@@ -6,6 +6,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" type="text/css" href="CSS/JumanjiPlants.CSS"> <!-- CSS -->
        <title>JumanjiPlants</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> <!--BOOTSTRAP -->
 	 </head>
 
 
@@ -21,7 +22,7 @@
       </div>
      <!-- Sesión de usuario -->
       <div class="Sesion">
-         <img src="Login/Fotos/usuario.png" target = "_blank" > 
+         <img src="Fotos/usuario.png" target = "_blank" > 
         </a>
       </div>
     

@@ -21,7 +21,12 @@ header {
          margin-left: 3rem;
   
          }
-
+  .blanco{width: auto;
+          height: 5rem;
+          }
+  .blanco2{width:auto;
+    height: 4.4rem;
+    }
   .titulo {
             /* Uso rem en vez de px para facilitar el ajuste distintos tamaños de pantallas. */
            background-image:url("Fotos/SelvaEdit.jpg");
@@ -67,7 +72,25 @@ header {
        font-size:20 px;
               }
   
- 
+  .slider {
+      width: 35%;
+      height:auto;
+      margin: auto;
+      overflow: hidden; /* Ocultar imágenes que se quedan fuera. */ 
+  }
+  
+  .slider ul {
+     display: flex; /* Junta las imagenes una al lado de la otra.*/
+      padding: 0;
+      width: 400%;
+      animation: cambio 20s infinite alternate;
+          }
+  
+  .slider li{list-style: none;
+             width: 100%; }
+  
+ .slider img{ width:100%; 
+          }
   
   .QuienesSomos p {font-size: 2rem;}
 
@@ -84,6 +107,64 @@ header {
                     border-radius: 20%;
                      }
   
+  .Parrafo  {display: felx;}
+  .Contacto {background-color:#efb13c ;
+             padding: 3rem ;
+             border-radius: 2rem;
+         }
+
+  .Productos img{height: 15rem;
+                 width: 15rem;
+                 border-radius: 1.5rem;
+                 border: solid #efb13c;}
+  
+  .Productos h2 {text-align: center;
+                 font-size: 3rem;
+  }
+  
+  .Productos table {font-size: 2rem;}
+  
+  .Productos li {text-decoration-style: none;}
+  
+  .Producto a { 
+  
+  }
+  
+  
+
+   iframe{width:100%;
+          border: none;
+         
+        }
+  /* SESION */
+  .Sesion {width: 5rem;
+          height: 3.5rem;
+          float: right;
+          background-color: #efb13c; 
+          border-radius:100%;
+          margin-top: 0.75rem;
+          margin-right: 0.75rem;
+            }
+  .Sesion img{width: 3.5rem;
+              height: 2rem;
+              float:right;
+              margin-right: 0.75rem;
+              margin-top:  0.75rem;
+               }
+  /* FIN SESION */
+  
+  .Carrito {width: 5rem;
+          height: 3.5rem;
+          float: right;
+          border-radius:100%;
+          margin-top: 0.50rem;
+          margin-right: 0.75rem;
+  }
+  .Carrito img{width: 4.5rem;
+              height: 3.5rem;
+              float:left;
+              margin-right: 20rem;
+              margin-top:  0.75rem;}
 
 
 /* NAVBAR              */
@@ -103,7 +184,6 @@ header {
   .navbar a:link {
       text-decoration: none;
   
-  
   }
   
   .navbar a:visited {
@@ -120,16 +200,13 @@ header {
   
   }
   
-  .navbar a:active { text-decoration: underline;;
+  .navbar a:active { text-decoration: underline;
   
   }
 
 
 
-
-
-  
-
+ 
 
   
   
@@ -150,6 +227,9 @@ header {
       margin-bottom: 0rem;
       padding-bottom: 2rem;}
   
-
+  .Productos ul {
+    list-style-type: none;
+  
+  }
   
  
