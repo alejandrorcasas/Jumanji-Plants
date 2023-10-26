@@ -2,11 +2,25 @@
   <!DOCTYPE html>
 	<html>
 	 <head>
-     <meta charset="utf-8">
+    <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" type="text/css" href="CSS/JumanjiPlants.CSS"> <!-- CSS -->
-       <title>Jumanji Plants</title>
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> <!--BOOTSTRAP -->
+     <link rel="preconnect" href="https://fonts.googleapis.com"><!-- Google font h1  -->
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- Google font  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com"><!-- Google font h2  -->
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- Google font h2  -->
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet"><!--  Google font h2  -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> <!--BOOTSTRAP -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><!--Libreria Ajax  -->
+   <!-- BIBLIOTECA SWEETALERT -->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <!-- <link rel="stylesheet" href="css/sweetalert2.min.css"> -->
+     <script src="js/sweetAlert.js"></script>
+
+     
+   <title>Jumanji Plants</title>
+
+
 	 </head>
 
 
@@ -58,6 +72,15 @@
         <br>
 <!-- Fin Navbar -->  
 
+<!-- ESPACIO NAVBAR -->
+<div class="blanco">
+         </div>
+<!-- FIN ESPACIO NAVBAR -->
+
+<!-- ESPACIO EN BLANCO -->
+<div class="blanco">
+         </div>
+<!-- FIN ESPACIO EN BLANCO -->
    </header> 
 
 
@@ -65,6 +88,25 @@
 
 
 <main class="contenido">
+<!-- SLIDER FOTOS -->
+<div class="slider">
+        	<ul>
+        		<li> <img src="Fotos/Domo.png"> </li>
+        		<li> <img src="Fotos/Kokedama.png"> </li>
+        		<li><img src="Fotos/Tillandsia.png"></li>
+        		<li><img src="Fotos/Crasas.png"></li>
+        	</ul>
+
+        </div>
+
+      
+  <!-- FIN SLIDER FOTOS -->
+
+<!-- ESPACIO EN BLANCO -->
+     <div class="blanco">
+     </div>
+<!-- FIN ESPACIO EN BLANCO -->
+
    
 
 <!-- Quienes Somos -->
