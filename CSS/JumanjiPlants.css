@@ -183,7 +183,30 @@ header {
       100%{margin-left: -300%;}
   }
   
-  
+  .Contacto {display: inline-flex;
+    width:100px;}
+
+/* .Formulario {width: 50%;} */
+
+.Formulario p {/* background-color: #5093cd;
+        border: solid #155d9b;
+        border-radius: 2rem;
+        width: auto;
+        padding: 1rem 2rem ;
+        font-family: 'Dancing Script', cursive;
+        font-size: 2.5rem;
+        font-weight: bold;
+       */
+background-color:#FCD876;
+   border: solid #F9C425 0.8rem;
+   border-radius: 2rem;
+   width: auto;
+   padding: 1rem 2rem ;
+   font-family: 'Dancing Script', cursive;
+   font-size: 2rem;
+   font-weight: bold;
+       }
+
   
   h1 {font-family: 'Lobster', cursive; 
       color: #0d1d28;

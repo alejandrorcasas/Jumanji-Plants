@@ -193,7 +193,78 @@ include ("conexion.php");
     </div>
 <!-- FIN ESPACIO EN BLANCO -->
 
+<!-- Contacto -->
+<section id="Contacto">
+  <div class="container">
+    <h1>Contacto</h1>
+    <hr>
+   
+  <!-- FORMULARIO CONTACTO -->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="Formulario" 
+        style="background-color: #5EC68E;  font-size: 2rem;font-weight: 0.1rem; padding: 5rem; border: solid 0.8rem orange;border-radius: 5% "
+         width = "50%">
+         <!-- FORMULARIO -->
+        <form action="FormularioContacto/enviar_bbdd.php" method="post">
+            <!-- NOMBRE -->
+             <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" name="Nombre" placeholder="Nombre" required>
+             </div>
+            <!-- APELLIDOS -->
+             <div class="form-group">
+              <label for="apellidos">Apellidos</label>
+              <input type="text" class="form-control" id="apellidos" name="Apellidos" placeholder="Apellidos" required>
+             </div>
+           <!-- CORREO ELECTRONICO -->
+            <div class="form-group">
+              <label for="correo">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo" name="Correo" placeholder="Correo" required>
+            </div>
 
+            <div class="form-group">
+              <label for="telefono">Número de contacto</label>
+              <input type="tel" class="form-control" id="telefono" name="Telefono" placeholder="Teléfono" required>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea class="form-control" id="mensaje" name="Mensaje" placeholder="Escriba su mensaje aquí..." required></textarea>
+            </div>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-primary" name="Boton">Enviar</button>
+          </form>
+          <!-- FIN FORMULARIO -->
+          <br>
+          
+         <p class="Horario">Horario Oficina:
+            Lunes a Viernes:
+             10:00-14:00 y 16:00-20:00
+             <br>
+             Horario Reparto:
+             Lunes-Domingo: 24 horas</p>
+        </div>
+         
+      </div>
+      <div class="col-md-6">
+        <div class="Mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.183027884616!2d-0.956700567213784!3d37.62138230990546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6341c5a7541d51%3A0x34942cb6bd020d75!2sC.%20Bucarest%2C%2091%2C%2030392%20Cartagena%2C%20Murcia!5e0!3m2!1ses!2ses!4v1680089779178!5m2!1ses!2ses" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <!-- ESPACIO EN BLANCO -->
+               <div class="blanco2">
+                 </div>
+          <!-- FIN ESPACIO EN BLANCO -->
+            <p >
+            C. Bucarest, 91, 30392 Cartagena, Murcia
+            <br>
+            HielosCartago@hotmail.com
+            <br>
+            698743212
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
 
 <!-- ESPACIO EN BLANCO -->
 <div class="blanco">
