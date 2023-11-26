@@ -1,0 +1,229 @@
+
+
+
+header {
+  /*     position: fixed;*/
+          max-width:100%;
+          width: 100%;
+          top: 0px; /*Para pegar el header el top, y que no se vea lo de detrás al bajar.*/
+   
+          }
+  
+  
+  main {margin-left: 15rem;
+        margin-right:  15rem;}
+  
+  .logo {border-radius: 12rem;
+         width: 10% ;
+         height: 10%;
+         float: left;
+         margin-top: 2.3rem;
+         margin-left: 3rem;
+         }
+
+  .blanco{width: auto;
+          height: 5rem;
+          }
+  .blanco2{width:auto;
+    height: 4.4rem;
+    }
+  .titulo {
+            /* Uso rem en vez de px para facilitar el ajuste distintos tamaños de pantallas. */
+           background-image:url("Fotos/SelvaEdit.jpg");
+           background-size: cover; /* Ajustar la imagen para que cubra todo el espacio del elemento */
+           text-align: center;
+           margin-top: 0rem;
+           padding-top: 0rem;
+           }
+  
+  .titulo h1 {padding-top: 3rem;
+              font-size: 7rem;
+              margin-right: 15rem;
+              color:white;
+              font-weight: bold;
+              -webkit-text-stroke-width: 2px;
+              -webkit-text-stroke-color: black;
+  
+              }
+  .titulo h2 {padding-top: 3rem;
+              font-size: 3rem;
+              text-align: center;
+              color:white;
+              font-weight: bold;
+              -webkit-text-stroke-width: 0.07rem;
+              -webkit-text-stroke-color: black;
+  
+  
+              }
+
+  /* SESION */
+  /* .Sesion {width: 5rem;          HE CAMBIADO EL LOGO Y NO NECESITO UN BACKGROUND. 
+    height: 3.5rem;
+    float: right;
+    background-color: #4DBF82; 
+    border-radius:100%;
+    margin-top: 0.75rem;
+    margin-right: 0.75rem;
+      } */
+.Sesion img{width: 4.5rem;
+        height: 3rem;
+        float:right;
+        margin-right: 0.75rem;
+        margin-top:  0.75rem;
+         }
+/* FIN SESION */
+  
+  .pestañas {  background-color: #efb13c;
+               margin: 0;
+               padding: 1.5rem 1rem 1.5rem 1rem;
+               float: right;
+               border-radius: 0rem 0rem 0rem 12rem;
+            }
+  
+  .pestañas li{
+      display: inline;
+      font-family: 'Lobster', cursive; 
+       font-size: 1rem;
+      /* background-color: lightgray; */
+       margin-inline: 1rem;
+       font-size:20 px;
+              }
+  
+  .slider {
+      width: 35%;
+      height:auto;
+      margin: auto;
+      overflow: hidden; /* Ocultar imágenes que se quedan fuera. */ 
+  }
+  
+  .slider ul {
+     display: flex; /* Junta las imagenes una al lado de la otra.*/
+      padding: 0;
+      width: 400%;
+      animation: cambio 20s infinite alternate;
+          }
+  
+  .slider li{list-style: none;
+             width: 100%; }
+  
+ .slider img{ width:100%; 
+          }
+  
+  .QuienesSomos p {font-size: 2rem;}
+
+  .QuienesSomos li {font-size: 1.5rem;
+                    ;
+
+ }
+  .QuienesSomos ul {width: 70%;
+                    background-color:#fcd876 ;
+                    margin-left:20%;
+                    padding:4rem;
+                    padding-left: 7rem;
+                    border: solid 1rem #f9c425;
+                    border-radius: 20%;
+                     }
+  
+
+
+/* NAVBAR              */
+  .navbar{width:35%;
+          float:right;
+          border-bottom-left-radius:5rem ;
+          font-size: 25px;
+          font-weight: bold;}
+
+  .navbar ul {margin-right: 5rem;
+              font-family: 'Dancing Script', cursive;
+              }
+  .navbar li {border-radius: 5rem;}
+
+  .navbar td {padding: 1rem 2rem;}
+  
+  .navbar a:link {
+      text-decoration: none;
+  
+  
+  }
+  
+  .navbar a:visited {
+      text-decoration: none;
+  }
+  
+  /* .navbar a:focus {
+  
+  } Alfinal no lo voy a usar*/
+  
+  .navbar a:hover { text-decoration: underline;
+                    background-color: #f1d42d;
+                    border-radius: 5rem;
+  
+  }
+  
+  .navbar a:active { text-decoration: underline;;
+  
+  }
+
+
+  
+  
+#fotodistribucion {width: 90%;}
+                 
+  @keyframes cambio {   /* Determina las paradas de las imagenes en la secuencia.*/
+      0% {margin-left:0 ;}
+      20% {margin-left:0;}
+      /* 1 segundo de cambio entre imágenes. */
+      25%{margin-left: -100%;}
+      45%{margin-left:-100%;}
+  
+      50%{margin-left: -200%;}
+      70%{margin-left: -200%;}
+  
+      75%{margin-left: -300%;}
+      100%{margin-left: -300%;}
+  }
+  
+  .Contacto {display: inline-flex;
+    width:100px;}
+
+/* .Formulario {width: 50%;} */
+
+.Formulario p {/* background-color: #5093cd;
+        border: solid #155d9b;
+        border-radius: 2rem;
+        width: auto;
+        padding: 1rem 2rem ;
+        font-family: 'Dancing Script', cursive;
+        font-size: 2.5rem;
+        font-weight: bold;
+       */
+background-color:#FCD876;
+   border: solid #F9C425 0.8rem;
+   border-radius: 2rem;
+   width: auto;
+   padding: 1rem 2rem ;
+   font-family: 'Dancing Script', cursive;
+   font-size: 2rem;
+   font-weight: bold;
+       }
+
+  
+  h1 {font-family: 'Lobster', cursive; 
+      color: #0d1d28;
+      font-size: 3rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-bottom: - 2rem;
+      text-align: center;
+      margin-bottom: 5rem;
+      margin-top: 2rem;}
+  
+  h2 {font-family: 'Dancing Script', cursive;
+      color: #0d1d28;
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      margin-bottom: 0rem;
+      padding-bottom: 2rem;}
+  
+
+ 
