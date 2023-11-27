@@ -11,10 +11,10 @@
 	<div class="Login">
 		<form action="Verificacion.php " method="post">
 			<p>Usuario</p>
-			<input type="text" name="Usuario" >
+			<input type="text" name="User" >
 			<br>
 			<p>Contraseña</p>
-			<input type="password" name="Contraseña">
+			<input type="password" name="Pass">
 			<br>
 			<br>
 			<input type="submit" name="Enviar" value="Login">
