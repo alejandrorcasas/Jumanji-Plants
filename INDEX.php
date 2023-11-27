@@ -206,30 +206,30 @@
         style="background-color: #5EC68E;  font-size: 2rem;font-weight: 0.1rem; padding: 5rem; border: solid 0.8rem orange;border-radius: 5% "
          width = "50%">
          <!-- FORMULARIO -->
-        <form action="FormularioContacto/enviar_bbdd.php" method="post">
+        <form action="PHP/enviar.php" method="post">
             <!-- NOMBRE -->
              <div class="form-group">
               <label for="nombre">Nombre</label>
-              <input type="text" class="form-control" id="nombre" name="Nombre" placeholder="Nombre" required>
+              <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
              </div>
             <!-- APELLIDOS -->
              <div class="form-group">
               <label for="apellidos">Apellidos</label>
-              <input type="text" class="form-control" id="apellidos" name="Apellidos" placeholder="Apellidos" required>
+              <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="Apellidos" required>
              </div>
            <!-- CORREO ELECTRONICO -->
             <div class="form-group">
               <label for="correo">Correo Electrónico</label>
-              <input type="email" class="form-control" id="correo" name="Correo" placeholder="Correo" required>
+              <input type="email" class="form-control" id="correo" name="email" placeholder="Correo" required>
             </div>
 
             <div class="form-group">
               <label for="telefono">Número de contacto</label>
-              <input type="tel" class="form-control" id="telefono" name="Telefono" placeholder="Teléfono" required>
+              <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Teléfono" required>
             </div>
             <div class="form-group">
               <label for="mensaje">Mensaje</label>
-              <textarea class="form-control" id="mensaje" name="Mensaje" placeholder="Escriba su mensaje aquí..." required></textarea>
+              <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Escriba su mensaje aquí..." required></textarea>
             </div>
             <br>
             <br>
@@ -243,7 +243,7 @@
              10:00-14:00 y 16:00-20:00
              <br>
              Horario Reparto:
-             Lunes-Domingo: 24 horas</p>
+             Lunes-viernes: 8:00-21:00</p>
         </div>
          
       </div>
@@ -257,7 +257,7 @@
             <p >
             C. Bucarest, 91, 30392 Cartagena, Murcia
             <br>
-            HielosCartago@hotmail.com
+            JumanjiPlants@hotmail.com
             <br>
             698743212
           </p>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="CSS/JumajiPlants.css">
+	<link rel="stylesheet" type="text/css" href="CSS/JumajiPlants.css"> <!-- Corregir CSS que no carga -->
 	<title>MiCuenta</title>
 </head>
 <body>
